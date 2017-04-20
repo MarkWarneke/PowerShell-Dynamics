@@ -4,10 +4,9 @@ Personal collection of scripts for Microsoft Dynamics for Operations.
 Scripts are only for testing and lab purposes.
 Theses scripts are not written or maintained on a regular basis and are not ment to be used without proper inspectation and knowledge about the results of provided funcitons.
 
-# Dynamics AX 2009
-Scripts for Dynamics AX Version 2009
-./2009 
-To start/stop tracing in AX 2009 use the PowerShell functions.
+* [Dynamics AX 2009](./2009)
+        * [Readme](./2009/README.md)
+        * [Set-Dynamics2009Tracing](./2009/Set-Dynamics2009Tracing.ps1) To start/stop tracing in AX 2009 use the PowerShell functions.
 
 # DISCLAIMER:
 
