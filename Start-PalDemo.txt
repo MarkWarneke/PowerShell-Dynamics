@@ -1,0 +1,15 @@
+Powershell -ExecutionPolicy ByPass -NoProfile -File ".\PAL.ps1"
+-Log "C:\PerfLogs\Admin\DemoCollection\DE-MAWARNEK1_20170510-000001\Performance Counter.blg"
+-ThresholdFile "C:\Users\mawarnek\AppData\Local\Temp\PalAutoDetectThresholdFile_0db7af29-c94b-4e78-b5f2-dbd82299dbbe.xml"
+-Interval "AUTO"
+-IsOutputHtml $True
+-HtmlOutputFileName "[LogFileName]_PAL_ANALYSIS_[DateTimeStamp].htm"
+-IsOutputXml $False
+-XmlOutputFileName "[LogFileName]_PAL_ANALYSIS_[DateTimeStamp].xml"
+-AllCounterStats $True
+-NumberOfThreads 4
+-IsLowPriority $True
+-OS "64-bit Windows 8"
+-PhysicalMemory "4"
+-UserVa "2048"
+

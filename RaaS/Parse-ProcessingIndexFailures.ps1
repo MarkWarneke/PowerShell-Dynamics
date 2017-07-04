@@ -1,0 +1,1 @@
+Select-Xml .\ProcessingIndex.xml -XPath '//Run[@StatusName="Failure"]'  | % { $_.node }
